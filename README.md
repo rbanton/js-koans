@@ -1,4 +1,11 @@
-# Grab the project
+# Quick access to instructions
+
+1. [Grab the project](#grab-the-project)
+2. [Work through the exercises](#work-through-the-exercises)
+3. [Backup and submit your project](#backup-and-submit-your-project)
+4. [Opportunity for extra credit](#opportunity-for-extra-credit)
+
+## Grab the project
 
 1. Clone this project to your machine. Using GitHub Desktop, you can `Open in Desktop` in the `Clone or download` button.
 <img width="1041" alt="screen shot 2016-10-10 at 5 50 52 pm" src="https://cloud.githubusercontent.com/assets/16547949/19252302/3640a3e8-8f12-11e6-8aaf-4a716412dadd.png">
@@ -9,7 +16,7 @@
 1. Open the project folder by right-clicking on the project, and select `Open in Finder` on a Mac, or `Open in Explorer` no a Windows machine. If you have Atom installed and would like to use that text editor, you can choose `Open in Atom`.
 <img width="999" alt="screen shot 2016-10-10 at 5 56 20 pm" src="https://cloud.githubusercontent.com/assets/16547949/19252462/f6911a9c-8f12-11e6-90bf-83749c1205dd.png">
 
-# Work through the exercises
+## Work through the exercises
 
 1. You'll be working through a series of exercises called *JavaScript Koans*. Open the file `jskoans.htm` in your web browser (Safari, Chrome, or Firefox, please). This will show you the result of each test.
 ![screen shot 2016-10-10 at 6 00 38 pm](https://cloud.githubusercontent.com/assets/16547949/19252574/8ae0dde0-8f13-11e6-8cfb-168d0800cdf6.png)
@@ -24,7 +31,7 @@ ok(__ === true, 'what will satisfy the ok assertion?');
 1. Note that the first test now passes, and the next test appears, which can be corrected by looking at the file `topics/about_asserts.js`, line `9`.
 1. Continue working through the exercises, refreshing after each one.
 
-# Backup and submit your project
+## Backup and submit your project
 
 1. You can back up your project to GitHub at any time by committing your changes, and then publishing them to GitHub.
   <details>
@@ -51,6 +58,6 @@ ok(__ === true, 'what will satisfy the ok assertion?');
   </details>
 1. Keep an eye on open Pull Requests and leave comments if you are able to help your classmates.
 
-# Opportunity for extra credit
+## Opportunity for extra credit
 
-Look for the Extra Credit Pull Request (it is #2). This Pull Request is a place to collaborate with your classmates on a series of explanations for why each of the Koans work the way they work. To get your extra credit, follow the instructions on that Pull Request.
+Look for the Extra Credit Pull Request (it is [PR #2](https://github.com/cop1000/js-koans/pull/2)). This Pull Request is a place to collaborate with your classmates on a series of explanations for why each of the Koans work the way they work. To get your extra credit, follow the instructions on that Pull Request.
