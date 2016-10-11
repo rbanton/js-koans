@@ -35,9 +35,11 @@
 <img width="1432" alt="screen shot 2016-10-10 at 6 02 55 pm" src="https://cloud.githubusercontent.com/assets/16547949/19252665/ff005bd8-8f13-11e6-809f-2a95a8e55f1b.png">
 </details>
 1. Reflect on the error message on your web browser. For example, in the first test, the error is: `what will satisfy the ok assertion?` and in the `about_asserts.js` file, I see an equality test in line 5:
-```js
-ok(__ === true, 'what will satisfy the ok assertion?');
-```
+
+  ```js
+  ok(__ === true, 'what will satisfy the ok assertion?');
+  ```
+  
 1. I will fix line `5` by changing the underscores `__` to `true` so that the equality statement is valid. Then I'll refresh the page in the web browser.
 <details>
 <img width="1412" alt="screen shot 2016-10-10 at 6 07 56 pm" src="https://cloud.githubusercontent.com/assets/16547949/19252776/a979ab0a-8f14-11e6-9cc8-7145e7a3f317.png">
