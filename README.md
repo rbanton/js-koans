@@ -1,4 +1,4 @@
-# Quick access to instructions
+# Project 1 Instructions
 
 1. [Grab the project](#grab-the-project)
 2. [Work through the exercises](#work-through-the-exercises)
