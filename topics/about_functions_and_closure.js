@@ -50,3 +50,4 @@ test("using call to invoke function",function(){
     var invokee = function( message ){
         return this + message;
     };
+  });
