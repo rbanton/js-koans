@@ -7,7 +7,7 @@ test("'this' inside a method", function () {
 			return "Hello, my name is " + this.__;
 		}
 	}
-	equal(person.intro(), "Hello, my name is bob", "If an object has a method can you access properties inside it?");
+	equal(person.intro(), "Hello, my name is undefined", "If an object has a method can you access properties inside it?");
 });
 
 test("'this' on unattached function", function () {
@@ -19,3 +19,4 @@ test("'this' on unattached function", function () {
 	}
 
 	var alias = person.intro;
+});
