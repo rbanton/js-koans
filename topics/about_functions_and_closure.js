@@ -42,6 +42,6 @@ test("arguments array", function() {
         // __
     };
 
-    equal(15, add(1,2,3,4,5), "add 1,2,3,4,5");
-    equal(9, add(4,7,-2), "add 4,7,-2");
+    equal(undefined, add(1,2,3,4,5), "add 1,2,3,4,5");
+    equal(undefined, add(4,7,-2), "add 4,7,-2");
 });
