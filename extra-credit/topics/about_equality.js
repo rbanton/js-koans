@@ -5,6 +5,7 @@ test("numeric equality", function() {
     equal(3 + __,  7, "");
 });
 
+// con·cat·e·nate: link (things) together in a chain or series - "Oxford Dictionaries". The function of the string equality test is to demonstrate how to join ("2" "strings") and make them; equal("2" + "strings", "2strings"); one string
 test("string equality", function() {
     equal("3" + __, "37", "concatenate the strings");
 });
