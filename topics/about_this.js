@@ -9,3 +9,13 @@ test("'this' inside a method", function () {
 	}
 	equal(person.intro(), "Hello, my name is bob", "If an object has a method can you access properties inside it?");
 });
+
+test("'this' on unattached function", function () {
+	var person = {
+		globalName: 'bob',
+		intro: function () {
+			return "Hello, my name is " + this.globalName;
+		}
+	}
+
+	var alias = person.intro;

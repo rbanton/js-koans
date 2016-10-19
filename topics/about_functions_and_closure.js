@@ -45,3 +45,8 @@ test("arguments array", function() {
     equal(15, add(1,2,3,4,5), "add 1,2,3,4,5");
     equal(9, add(4,7,-2), "add 4,7,-2");
 });
+
+test("using call to invoke function",function(){
+    var invokee = function( message ){
+        return this + message;
+    };
