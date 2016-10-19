@@ -41,3 +41,4 @@ test("adding functions", function() {
     };
     equal("I Amory Blaine am 102 years old.", person.toString(), "what should the toString function be?");
 });
+// This test works because it checks the output (returned) text for case sensitivity and proper spacing against the sentence inside the string (" ") of the equality test. It does not pass the test if you use the wrong spacing or case of the letters.
