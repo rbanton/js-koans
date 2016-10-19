@@ -7,14 +7,14 @@ test("defining functions directly", function() {
         result = "b";
     };
     changeResult();
-    equal("b", result, 'what is the value of result?');
+    equal(__, result, 'what is the value of result?');
 });
 
 test("assigning functions to variables", function() {
     var triple = function(input) {
         return input * 3;
     };
-    equal(12, triple(4), 'what is triple 4?');
+    equal(__, triple(4), 'what is triple 4?');
 });
 
 test("self invoking functions", function() {
@@ -23,23 +23,22 @@ test("self invoking functions", function() {
     // self invoking functions are used to provide scoping and to alias variables
     (function(pv) {
         var secretValue = "password";
-        equal("shared", pv, 'what is the value of pv?');
-        equal("string", typeof(secretValue), "is secretValue available in this context?");
-        equal("string", typeof(publicValue), "is publicValue available in this context?");
+        equal(__, pv, 'what is the value of pv?');
+        equal("__", typeof(secretValue), "is secretValue available in this context?");
+        equal("__", typeof(publicValue), "is publicValue available in this context?");
     })(publicValue);
 
-    equal("undefined", typeof(secretValue), "is secretValue available in this context?");
-    equal("string", typeof(publicValue), "is publicValue available in this context?");
+    equal("__", typeof(secretValue), "is secretValue available in this context?");
+    equal("__", typeof(publicValue), "is publicValue available in this context?");
 });
 
 test("arguments array", function() {
     var add = function() {
         var total = 0;
-        for(var i = 0; i < arguments.length; i++) {total+=arguments[i];
+        for(var i = 0; i < arguments.length; i++) {
             // complete the implementation of this method so that it returns the sum of its arguments
             // __
-        }console.log("total is" + total);
-        return total;
+        }
         // __
     };
 
