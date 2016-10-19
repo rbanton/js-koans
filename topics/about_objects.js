@@ -1,9 +1,9 @@
 
 module("About Objects (topics/about_objects.js)");
 
-test("object type", function() {
+test("object" "type", function() {
     var empty_object = {};
-    equal(__, typeof(empty_object), 'what is the type of an object?');
+    equal"object"_, typeof(empty_object), 'what is the type of an object?');
 });
 
 test("object literal notation", function() {
