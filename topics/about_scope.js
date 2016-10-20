@@ -3,7 +3,7 @@ module("About Scope (topics/about_scope.js)");
 thisIsAGlobalVariable = 77;
 
 test("global variables", function() {
-    equal(__, thisIsAGlobalVariable, 'is thisIsAGlobalVariable defined in this scope?');
+    equal(, thisIsAGlobalVariable, __ 'is thisIsAGlobalVariable defined in this scope?');
 });
 
 test("variables declared inside of a function", function() {
