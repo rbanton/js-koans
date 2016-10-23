@@ -13,7 +13,7 @@ test("array type", function() {
 
 test("length", function() {
     var collection = ['a','b','c'];
-    equal(2, collection.length, 'what is the length of the collection array?');
+    equal(3, collection.length, 'what is the length of the collection array?');
 });
 
 test("stack methods", function() {
@@ -21,8 +21,8 @@ test("stack methods", function() {
     stack.push("first");
     stack.push("second");
 
-    equal("first", stack.pop(), 'what will be the first value popped off the stack?');
-    equal("second", stack.pop(), 'what will be the second value popped off the stack?');
+    equal("second", stack.pop(), 'what will be the first value popped off the stack?');
+    equal("first", stack.pop(), 'what will be the second value popped off the stack?');
 });
 
 test("queue methods", function() {
@@ -31,6 +31,6 @@ test("queue methods", function() {
     queue.push("second");
     queue.unshift("third");
 
-    equal("first", queue.shift(), 'what will be shifted out first?');
-    equal("second", queue.shift(), 'what will be shifted out second?');
+    equal("third", queue.shift(), 'what will be shifted out first?');
+    equal("first", queue.shift(), 'what will be shifted out second?');
 });
