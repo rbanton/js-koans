@@ -32,10 +32,10 @@ test("for in", function() {
 
 test("ternary operator", function() {
 	var fruit = true ? "apple" : "orange";
-	equal("apple", fruit, 'what is the value of fruit?');
+	equal(__, fruit, 'what is the value of fruit?');
 
 	fruit = false ? "apple" : "orange";
-	equal("orange", fruit, 'now what is the value of fruit?');
+	equal(__, fruit, 'now what is the value of fruit?');
 });
 
 test("switch", function() {
@@ -48,7 +48,7 @@ test("switch", function() {
 			result = 2;
 			break;
 	}
-	equal(3, result, 'what is the value of result?');
+	equal(__, result, 'what is the value of result?');
 });
 
 test("switch default case", function() {
@@ -64,10 +64,10 @@ test("switch default case", function() {
             result = "Merry";
             break;
     }
-    equal("Merry" result, 'what is the value of result?');
+    equal(__, result, 'what is the value of result?');
 });
 
 test("null coalescing", function() {
     var result = null || "a value";
-    equal(null, result, 'what is the value of result?');
+    equal(__, result, 'what is the value of result?');
 });
