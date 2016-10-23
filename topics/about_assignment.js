@@ -1,4 +1,3 @@
-
 module("About Assignment (topics/about_assignment.js)");
 
 var temp = 5;

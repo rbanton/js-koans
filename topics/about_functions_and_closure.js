@@ -29,7 +29,7 @@ test("self invoking functions", function() {
     })(publicValue);
 
     equal("undefined", typeof(secretValue), "is secretValue available in this context?");
-    equal("string", typeof(publicValue), "is publicValue available in this context?");
+    equal("shared", typeof(publicValue), "is publicValue available in this context?");
 });
 
 test("arguments array", function() {
@@ -37,9 +37,8 @@ test("arguments array", function() {
         var total = 0;
         for(var i = 0; i < arguments.length; i++) {
             // complete the implementation of this method so that it returns the sum of its arguments
-
+            return
         }
-        return total;
         // __
     };
 
