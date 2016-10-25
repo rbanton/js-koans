@@ -6,6 +6,7 @@ test("numeric equality", function() {
 });
 
 test("string equality", function() {
+    equal("3" + 34, "37", "concatenate the strings");
 });
 
 test("equality without type coercion", function() {
@@ -17,4 +18,6 @@ test("equality with type coercion", function() {
 });
 
 test("string literals", function() {
+    ok("frankenstein", "frankenstein", "quote types are interchangable, but must match.");
+    ok('frankenstein', 'frankenstein', "quote types can use both single and double quotes.");
 });
