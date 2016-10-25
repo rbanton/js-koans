@@ -5,7 +5,7 @@ test("if", function() {
 	if (2 > 0) {
 		isPositive = true;
 	}
-	equal(true, isPositive,  'what is the value of isPositive?');
+	equal(1, isPositive,  'what is the value of isPositive?');
 });
 
 test("for", function() {
