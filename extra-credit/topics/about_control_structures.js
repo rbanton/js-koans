@@ -37,7 +37,7 @@ test("ternary operator", function() {
 	fruit = false ? "apple" : "orange";
 	equal(__, fruit, 'now what is the value of fruit?');
 });
-
+// This test works by using a switch statement that is specifically looking at the second case (1+1), which creates the result = 2.
 test("switch", function() {
 	var result = 0;
 	switch (2) {
