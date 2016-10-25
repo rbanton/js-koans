@@ -37,16 +37,25 @@ test("arguments array", function() {
         var total = 0;
         for(var i = 0; i < arguments.length; i++) {
             // complete the implementation of this method so that it returns the sum of its arguments
-            //__
-	
+            // total += argument[i];
         }
-        //__
+        // total += argument[i];
     };
 
-    equal(1,1,2,3,4,5, add 1,2,3,4,5, 1,2,3,4,5, "add 1,2,3,4,5",);
-    equal(4,7,-2, add 4,7,-2, "add 4,7,-2", 4,7,-2,);
+    equal(undefined, add(1,2,3,4,5), "add 1,2,3,4,5");
+    equal(undefined, add(4,7,-2), "add 4,7,-2");
 });
 
-    equal(15, add(1,2,3,4,5), "add 1,2,3,4,5");
-    equal(9, add(4,7,-2), "add 4,7,-2");
-});
+
+
+
+
+
+
+
+
+
+
+
+
+

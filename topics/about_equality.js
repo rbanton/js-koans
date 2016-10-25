@@ -6,7 +6,7 @@ test("numeric equality", function() {
 });
 
 test("string equality", function() {
-    equal("3" + "7", "37", "concatenate the strings");
+    equal("3" + 7, "37", "concatenate the strings");
 });
 
 test("equality without type coercion", function() {

@@ -17,7 +17,7 @@ test("length", function() {
 });
 
 test("stack methods", function() {
-    var stack = ["first" , "second"];
+    var stack = [];
     stack.push("first");
     stack.push("second");
 

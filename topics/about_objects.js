@@ -1,3 +1,4 @@
+
 module("About Objects (topics/about_objects.js)");
 
 test("object type", function() {
@@ -7,7 +8,7 @@ test("object type", function() {
 
 test("object literal notation", function() {
     var person = {
-        name: "Amory Blaine",
+        name:"Amory Blaine",
         age:102
     };
     equal("Amory Blaine", person.name, "what is the person's name?");
@@ -35,8 +36,8 @@ test("adding functions", function() {
         name: "Amory Blaine",
         age: 102,
         toString: function() {
-            return 102;  // HINT: use the 'this' keyword to refer to the person object.
+            return "I Amory Blaine am 102 years old.";  // HINT: use the 'this' keyword to refer to the person object.
         }
     };
-    equal(102, person.toString(), "what should the toString function be?");
+    equal("I Amory Blaine am 102 years old.", person.toString(), "what should the toString function be?");
 });

@@ -23,7 +23,7 @@ test("for in", function() {
 		age: 102
 	};
 	var result = "";
-        	// for in enumerates the property names of an object
+	// for in enumerates the property names of an object
 	for (var property_name in person) {
   		result = result + property_name;
 	}

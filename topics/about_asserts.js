@@ -1,5 +1,4 @@
 
-
 module("About Asserts (topics/about_asserts.js)");
 
 test("ok", function() {
@@ -7,7 +6,7 @@ test("ok", function() {
 });
 
 test("not ok", function() {
-   ok(false === false, 'what is a false value?');
+    ok(false === false, 'what is a false value?');
 });
 
 test("equal", function() {

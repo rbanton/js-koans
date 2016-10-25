@@ -1,6 +1,4 @@
 
-
-
 module("About Operators (topics/about_operators.js)");
 
 test("addition", function() {
