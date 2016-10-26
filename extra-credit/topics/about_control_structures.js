@@ -50,7 +50,7 @@ test("switch", function() {
 	}
 	equal(__, result, 'what is the value of result?');
 });
-
+//This "switch default case" test works and returns default because the first and second case did not match the expression "m".
 test("switch default case", function() {
     var result = "Pippin";
     switch ("m") {
